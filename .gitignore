@@ -1,0 +1,4 @@
+node_modules
+.env
+cv.txt
+.svelte-kit
