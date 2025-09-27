@@ -1,21 +1,14 @@
-import vercelAdapter from '@sveltejs/adapter-vercel';
-import nodeAdapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-auto';
+import vercel from '@sveltejs/adapter-vercel';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-// Seleccionar adaptador basado en variable de entorno
-const adapter = process.env.ADAPTER === 'node' 
-	? nodeAdapter({
-		out: 'build',
-		precompress: false
-	})
-	: vercelAdapter();
 
-const config = { 
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+	preprocess: vitePreprocess(),
 	kit: {
-		adapter: adapter,
-		files: {
-            assets: 'static'
-        }
+		adapter: vercel() || adapter()
 	}
 };
 
-export default config;
+export default config; 

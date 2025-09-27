@@ -3,6 +3,7 @@
     import Header from "../components/Header.svelte";
     import "../app.css";
 
+    
     let y = 0;
     let innerHeight = 0;
     let innerWidth = 0;
