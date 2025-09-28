@@ -1,8 +1,7 @@
 
 import { fail } from "@sveltejs/kit";
 
-const API_URL = process.env.VITE_API_URL;
-console.log('API_URL:', API_URL); // Log para depuración
+const API_URL = "https://backporfolio-production.up.railway.app";
 
 export const actions = {
     submitForm: async ({ request }) => { 
