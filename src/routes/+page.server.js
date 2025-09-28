@@ -9,7 +9,7 @@ export const actions = {
             const formData = await request.formData();
             const name = formData.get('name');
             const email = formData.get('email');
-            const menssage = formData.get('message');
+            const menssage = formData.get('menssage');
 
             // Validación básica
             if (!name) {
@@ -29,7 +29,7 @@ export const actions = {
             };
 
             // Envío de los datos a la API
-            const res = await fetch(`${API_URL}/contacts`, {
+            const res = await fetch(`${API_URL}/api/contacts`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -45,7 +45,7 @@ export const actions = {
             // Retorno en caso de éxito
             return { 
                 success: true,
-                message: "Mensaje enviado correctamente",
+                menssage: "Mensaje enviado correctamente",
                 data: resBody,
             };
         }
