@@ -119,7 +119,7 @@
                 No dudes en contactarme.  
 <br>
             <a
-                 href="/CV-3-2025-EugenioBrave.pdf"
+                 href="/CV_Eugenio_Brave.pdf"
                 target="_blank"
                 class="inline-block-end text-base sm:text-lg md:text-xl poppins text-yellow-300 hover:text-yellow-400 transition-colors duration-200"
             >
