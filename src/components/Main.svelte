@@ -291,12 +291,12 @@
         
             <!-- Campo de Mensaje -->
             <div class="flex flex-col gap-2">
-                <label for="menssage" class="text-sm sm:text-base text-gray-400">Mensaje</label>
+                <label for="message" class="text-sm sm:text-base text-gray-400">Mensaje</label>
                 <textarea
                     type="text"
-                    id="menssage"
-                    name="menssage"
-                    value={form?.menssage ?? ''}
+                    id="message"
+                    name="message"
+                    value={form?.message ?? ''}
                     placeholder="Por favor, escribe tu mensaje"
                     rows="6"
                     class="px-6 py-3 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 text-base sm:text-lg text-gray-700"
