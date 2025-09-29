@@ -1,5 +1,6 @@
-import { fail } from '@sveltejs/kit';    
-const API_URL = "http://localhost:8080";
+import { fail } from '@sveltejs/kit'; 
+
+const API_URL = "https://backporfolio-production.up.railway.app"; // cambiar cuando esté en producción por la ruta del backend
 
 
 export const actions = {
