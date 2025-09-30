@@ -6,10 +6,12 @@
     let steps = [
         {
             name:"Ecommerce Toys",
-            description:"Aplicación web desarrollada con Node.js, Express y Handlebars para la gestión y visualización de productos de una tienda de juguetes. Incluye paginación, diseño responsivo y una interfaz moderna que facilita la experiencia de compra del usuario",
+            description:"Aplicación web desarrollada con Node.js, Express y Handlebars para la gestión y visualización de productos de una tienda de juguetes. Incluye paginación, diseño responsivo y una interfaz moderna que facilita la experiencia de compra del usuario.",
             technologies:["JavaScript","Handlebars", "Node.js", "Express.js", "MongoDB"],
             deployment:["Vercel"],
-            github:"https://github.com/eugeniomatiasbrave/EcommerceToys-coderhouse",
+            github:{
+                juntos:"https://github.com/eugeniomatiasbrave/EcommerceToys-coderhouse"
+            },
             page:"https://ecommerce-toys-coderhouse.vercel.app",
         },
         {
@@ -235,12 +237,6 @@
             <Step step={steps[1]}>
             </Step>
             <Step step={steps[2]}>
-            </Step>
-            <Step step={steps[3]}>
-            </Step>
-            <Step step={steps[4]}>
-            </Step>
-            <Step step={steps[5]}>
             </Step>
         </div>
     </section>
