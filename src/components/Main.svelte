@@ -1,4 +1,3 @@
-
 <script >
     import Step from "./Step.svelte";
 	export let form;
@@ -70,7 +69,7 @@
             <span class="poppins text-2xl sm:text-4xl text-teal-600">Full Stack Developer</span>
         </h2>
         <p class="text-gray-400 text-base  sm:text-lg md:text-xl">
-            Enfocado en el desarrollo backend. Buscando oportunidades para crecer y aportar valor.
+            Diseño y desarrollo aplicaciones web modernas y escalables, aportando tanto en la programación como en la estrategia de cada proyecto.
         </p>
         <a
         href="#projects"
@@ -99,126 +98,144 @@
     <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
         Acerca de mí...
     </h3>
-    <p class="text-center w-2/3 sm:text-lg md:text-xl text-gray-400 mx-auto">
-        Aquí encontrarás más información sobre mí, lo que hago y mis habilidades actuales principalmente en términos de programación y tecnología.
+    <p class="text-center w-2/3 sm:text-lg md:text-xl text-teal-500 mx-auto">
+        Aquí encontrarás más información sobre mí, lo que hago y mis habilidades actuales principalmente en términos de programación, tecnología y formación académica.
     </p>
 </section>
 
+<!-- Sección Conóceme - Ancho completo y centrado -->
+<section class="py-10 sm:py-14 bg-gray-800/50 p-4 rounded-lg">
+    <div class="flex flex-col gap-6 md:gap-8 lg:gap-10 text-center">
+        <p class="text-base sm:text-lg md:text-xl text-gray-400 max-w-4xl mx-auto">
+            Soy Desarrollador Full Stack Web con formación en SvelteKit, React.js, Node.js, Express.js, AWS, MongoDB y SQL.
+            Hoy me dedico a diseñar y desarrollar aplicaciones web modernas, escalables y seguras, aportando tanto en la programación como en la estrategia de cada proyecto.
+            Mi recorrido profesional combina lo técnico con la gestión: durante más de 10 años emprendí y administré empresas, lo que me brindó una visión integral de negocio.
+            También trabajé en el sector farmacéutico, donde adquirí experiencia en procesos administrativos, control de stock y cumplimiento normativo, fortaleciendo mi capacidad de trabajar con precisión y responsabilidad.  
+        </p>
+    </div>
+</section>
+
+<!-- Skills y Formación Académica en la misma línea -->
 <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 py-10 sm:py-14">
-    <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
+    <!-- Columna izquierda: Formación Académica -->
+    <div class="flex flex-col lg:justify-start text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
         <div class="flex flex-col gap-2 text-center">
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-4xl">
-                Conóceme!
+                Formación Académica
             </h3>
         </div>
-        <p class="text-base sm:text-lg md:text-xl text-gray-400">
-                Estoy iniciando mi carrera profesional como Desarrollador Full Stack Junior, con una fuerte orientación hacia el backend.
-                Actualmente, formo parte de un equipo IT, donde desarrollo aplicaciones utilizando tecnologías como JavaScript, Express, MongoDb, MySQL, SvelteKit. Trabajo en un entorno ágil y colaborativo.
-                Mi formación en negocios y mi experiencia previa en auditoría y coordinación de servicios me han permitido desarrollar competencias blandas que complementan mis habilidades técnicas.
-                Estoy buscando integrar un equipo dinámico y desafiante donde pueda seguir creciendo y aportando valor.
-                No dudes en contactarme.  
-<br>
-            <a
-                 href="/CV_Eugenio_Brave.pdf"
-                target="_blank"
-                class="inline-block-end text-base sm:text-lg md:text-xl poppins text-yellow-300 hover:text-yellow-400 transition-colors duration-200"
-            >
-            Ver CV en PDF &rarr;
-            </a>
+
+        <div class="space-y-4">
+            <div class="bg-gray-800/50 p-4 rounded-lg">
+                <h4 class="text-xl font-semibold text-teal-400">Licenciatura en Negocios en Diseño y Comunicación</h4>
+                <p class="text-gray-400">Universidad de Palermo • 2017</p>
+                <p class="text-gray-300 mt-2">Estrategia y análisis de Negocios. Gestión de Proyectos</p>
+            </div>
+            
+            <div class="bg-gray-800/50 p-4 rounded-lg">
+                <h4 class="text-xl font-semibold text-teal-400">Full Stack Developer</h4>
+                <p class="text-gray-400">CoderHouse • 2023</p>
+                <p class="text-gray-300 mt-2">Desarrollador web full stack con enfoque en el desarrollo de aplicaciones modernas</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Columna derecha: Skills -->
+    <div class="flex flex-col lg:justify-start text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
+        <!-- Título -->
+        <div class="flex flex-col gap-2 text-center">
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-4xl">
+                Mis Skills
+            </h3>
+        </div>
+
+        <!-- Habilidades principales -->
+        <div class="flex flex-wrap gap-3 justify-center">
+            <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
+                HTML
             </p>
-           
-    
-           <!-- Botón Contáctame -->
-   <!-- Contenedor para los botones -->
-   <div class="flex flex-wrap justify-center lg:justify-start gap-4">
-    <!-- Botón Contáctame -->
-    <a
-        href="#contact"
-        class="blueShadow text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-8 py-4 group rounded-full bg-teal-900 text-teal-300 hover:bg-teal-700 transition-colors duration-200"
-    >
-        <div class="absolute top-0 right-full w-full h-full bg-teal-600 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-        <h4 class="relative z-9">Contáctame &rarr;</h4>
-    </a>
-    <!-- Botón Ver CV en PDF -->
-    
-</div>
+            <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
+                CSS
+            </p>
+            <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
+                JavaScript
+            </p>
+            <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
+                React.js
+            </p>
+            <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
+                SvelteKit
+            </p>
+            <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
+                Node.js
+            </p>
+            <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
+                Express.js
+            </p>
+            <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
+                MongoDB
+            </p>
+            <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
+                MySQL
+            </p>
+            <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
+                Typescript
+            </p>
         </div>
-        <div class="flex flex-col lg:justify-start text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
-            <!-- Título -->
-            <div class="flex flex-col gap-2 text-center">
-                <h3 class="font-semibold text-3xl sm:text-4xl md:text-4xl">
-                    Mis Skills
-                </h3>
-            </div>
 
-            <!-- Habilidades principales -->
-            <div class="flex flex-wrap gap-3 justify-center">
-                <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
-                    HTML
-                </p>
-                <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
-                    CSS
-                </p>
-                <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
-                    JavaScript
-                </p>
-                <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
-                    React.js
-                </p>
-                <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
-                    SvelteKit
-                </p>
-                <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
-                    Node.js
-                </p>
-                <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
-                    Express.js
-                </p>
-                <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
-                    MongoDB
-                </p>
-                <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
-                    MySQL
-                </p>
-                <p class="px-4 py-2 bg-teal-900 text-teal-200 rounded-md text-sm sm:text-base md:text-lg cursor-pointer text-center">
-                    Typescript
-                </p>
-            </div>
-
-            <!-- Subtítulo para otras habilidades -->
-            <div class="flex flex-col gap-1 text-center">
-                <h4 class="font-semibold text-2xl pt-0 sm:text-2xl md:text-2xl text-gray-300">
-                    Otras habilidades
-                </h4>
-            </div>
-            <!-- Otras habilidades -->
-            <div class="flex flex-wrap gap-2 justify-center">
-                <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
-                    Docker
-                </p>
-                <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
-                    Testing
-                </p>
-                <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
-                    Swagger
-                </p>
-                <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
-                    GIT
-                </p>
-                <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
-                    Looger
-                </p>
-                <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
-                    Artillery
-                </p>
-                <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
-                    SCRUM
-                </p>
-            </div>
+        <!-- Subtítulo para otras habilidades -->
+        <div class="flex flex-col gap-1 text-center">
+            <h4 class="font-semibold text-2xl pt-0 sm:text-2xl md:text-2xl text-gray-300">
+                Otras habilidades
+            </h4>
         </div>
-    </section>
+        <!-- Otras habilidades -->
+        <div class="flex flex-wrap gap-2 justify-center">
+            <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
+                Docker
+            </p>
+            <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
+                Testing
+            </p>
+            <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
+                Swagger
+            </p>
+            <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
+                GIT
+            </p>
+            <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
+                Looger
+            </p>
+            <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
+                Artillery
+            </p>
+            <p class="px-4 py-2 bg-gray-700 text-gray-300 rounded-md text-sm sm:text-base md:text-lg hover:bg-gray-500 transition-colors duration-200 cursor-pointer text-center">
+                SCRUM
+            </p>
+        </div>
+    </div>
+</section>
 
-    <div id="projects" class="border-t border-gray-700 opacity-50 my-8"></div>
+<!-- Botones de acción DESPUÉS de toda la información -->
+<section class="py-8 text-center">
+    <div class="flex flex-wrap justify-center gap-4">
+        <a 
+            href="#contact" 
+            class="blueShadow px-6 py-3 bg-teal-900 text-teal-300 hover:bg-teal-700 hover:text-white rounded-md text-base sm:text-lg md:text-xl transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+        >
+            Contáctame &rarr;
+        </a>
+        <a 
+            href="/CV_Eugenio_Brave.pdf" 
+            target="_blank" 
+            class="px-6 py-3 border border-teal-600 text-teal-300 hover:bg-yellow-600 hover:text-white rounded-md text-base sm:text-lg md:text-xl transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+        >
+            Ver CV en PDF &rarr;
+        </a>
+    </div>
+</section>
+
+<div id="projects" class="border-t border-gray-700 opacity-50 my-8"></div>
 
     <!--section 3-->
     <section  class="py-16 lg:py-20 flex flex-col gap-10">
