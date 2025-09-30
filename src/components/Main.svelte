@@ -5,56 +5,37 @@
 
     let steps = [
         {
-            name: "Ecommerce Toys",
-            description: "Aplicación web desarrollada con Node.js, Express y Handlebars para la gestión y visualización de productos de una tienda de juguetes. Incluye paginación, diseño responsivo y una interfaz moderna que facilita la experiencia de compra del usuario",
-            technologies: ["JavaScript","Handlebars", "Node.js", "Express.js", "MongoDB"],
-            github: "https://github.com/eugeniomatiasbrave/EcommerceToys-coderhouse",
-            page: "https://ecommerce-toys-coderhouse.vercel.app",
+            name:"Ecommerce Toys",
+            description:"Aplicación web desarrollada con Node.js, Express y Handlebars para la gestión y visualización de productos de una tienda de juguetes. Incluye paginación, diseño responsivo y una interfaz moderna que facilita la experiencia de compra del usuario",
+            technologies:["JavaScript","Handlebars", "Node.js", "Express.js", "MongoDB"],
+            deployment:["Vercel"],
+            github:"https://github.com/eugeniomatiasbrave/EcommerceToys-coderhouse",
+            page:"https://ecommerce-toys-coderhouse.vercel.app",
         },
         {
-            name: "Insulin Calculator App",
-            description: "App para Drogueria, sector diabetes......",
-            technologies: ["JavaScript","SvelteKit","Firebase"],
-            github: "https://github.com/eugeniomatiasbrave/braveSvelte",
-            page: "https://pokedex-sveltekit.vercel.app/",
+            name:"Landing Blanqueria",
+            description:"Desarrollo de una landing page para una blanquería, utilizando SvelteKit para una experiencia de usuario fluida y API REST en Node.js. La página destaca por su diseño atractivo y funcionalidad optimizada para captar clientes.",
+            technologies: ["JavaScript","SvelteKit","MySQL","Node.js","Express.js"],
+            deployment: ["Vercel", "Railway"],
+            github: {
+                front:"https://github.com/eugeniomatiasbrave/front_blanqueria",
+                back:"https://github.com/eugeniomatiasbrave/back_blanqueria"
+            },
+            page:"https://brave-blanqueria.vercel.app/",
         },
         {
-            name: "Turnero",
-            description: "Mejora tus conjuntos de datos con nuestros filtros y manipulaciones para garantizar que tus modelos se entrenen con los conjuntos de datos de la más alta calidad (próximamente).",
-            technologies: ["Next.js", "Node.js", "Express.js", "Firebase"],
-            github: "https://pokedex-sveltekit.vercel.app/",
-            page: "https://pokedex-sveltekit.vercel.app/",
+            name:"Porfolio Personal",
+            description:"Desarrollo de un porfolio personal utilizando SvelteKit para mostrar proyectos y habilidades.Diseño y responsivo. Uso de Mailing SendGrid en Backpara contacto.",
+            technologies: ["JavaScript","SvelteKit","Node.js","Express.js"],
+            deployment: ["Vercel","Railway"],
+            github: {
+                front:"https://github.com/eugeniomatiasbrave/front_porfolio",
+                back:"https://github.com/eugeniomatiasbrave/back_porfolio"
+            },
+            page:"https://brave-porfolio.vercel.app/",   
         },
-        {
-            name: "Play List infantil",
-            description: "Tienda Smoljames es una tienda de merchandising. ¡Commerce.js es un CMS para gestionar proyectos y Stripe se utiliza para manejar todas las transacciones!",
-            technologies: ["Next.js", "Node.js", "Express.js", "Firebase"],
-            github: "https://pokedex-sveltekit.vercel.app/",
-            page: "https://pokedex-sveltekit.vercel.app/",
-        },
-        {
-            name: "Ecommerce Susan Flo React",
-            description: "Prueba la robustez de tu modelo con perfiles de prueba personalizados y recibe informes exhaustivos sobre el rendimiento y las posibles vulnerabilidades de tu modelo.",
-            technologies: ["Next.js", "Node.js", "Express.js", "Firebase"],
-            github: "https://pokedex-sveltekit.vercel.app/",
-            page: "https://pokedex-sveltekit.vercel.app/",
-        },
-        {
-            name: "TODO Vademecum",
-            description: "Mejora tus conjuntos de datos con nuestros filtros y manipulaciones para garantizar que tus modelos se entrenen con los conjuntos de datos de la más alta calidad (próximamente).",
-            technologies: ["Next.js", "Node.js", "Express.js", "Firebase"],
-            github: "https://pokedex-sveltekit.vercel.app/",
-            page: "https://pokedex-sveltekit.vercel.app/",
-        },
-        {
-            name: "Vivero Hidroponico",
-            description: "Mejora tus conjuntos de datos con nuestros filtros y manipulaciones para garantizar que tus modelos se entrenen con los conjuntos de datos de la más alta calidad (próximamente).",
-            technologies: ["Next.js", "Node.js", "Express.js", "Firebase"],
-            github: "https://pokedex-sveltekit.vercel.app/",
-            page: "https://pokedex-sveltekit.vercel.app/",
-        },
-        
     ];
+
 </script>
 <div id="home"></div>
 
