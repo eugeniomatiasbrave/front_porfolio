@@ -47,7 +47,7 @@
     <!-- Columna izquierda: Contenido -->
     <div class="flex flex-col justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
         <h2 class="font-bold text-4xl sm:text-6xl md:text-6xl leading-tight">
-            EUGENIO MATIAS BRAVE
+            EUGENIO MATÍAS BRAVE
             <br />
             <span class="poppins text-2xl sm:text-4xl text-teal-600">Full Stack Developer</span>
         </h2>
